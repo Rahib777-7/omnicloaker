@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Omnicloaker v1.0.0 Demo</title>
+		<script src="../src/omnicloaker.js"></script>
+		<style>
+			.normal,
+			.ninja {
+				border: 2px solid black;
+				width: 10vw;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				padding: 20px;
+			}
+			.title {
+				font-size: 20px;
+				margin-top: 20px;
+				margin-bottom: 4px;
+			}
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				height: 100vh;
+				overflow-y: hidden;
+			}
+			p {
+				font-size: 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<script></script>
+		<div class="title">Cloak</div>
+		<div class="normal">
+			<p>Title</p>
+			<input type="text" id="title" />
+			<p>Icon</p>
+			<input type="text" id="icon" />
+			<p>Grab</p>
+			<input type="checkbox" id="grab" />
+			<p>Ninja</p>
+			<input type="checkbox" id="ninja" />
+		</div>
+		<div class="title">Ninja</div>
+		<div class="ninja">
+			<p>Title</p>
+			<input type="text" id="title" />
+			<p>Icon</p>
+			<input type="text" id="icon" />
+			<p>Grab</p>
+			<input type="checkbox" id="grab" />
+		</div>
+	</body>
+</html>
